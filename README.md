@@ -65,12 +65,10 @@ El conjunto de datos utilizado en este proyecto está disponible en Kaggle:
 - **PowerGrid Assets ML Dataset**  
   https://www.kaggle.com/datasets/cristiancamiloo/powergrid-assets-ml-dataset/data
 
-## 📄 Paper de Referencia del Estado del Arte
+-## 📄 Paper de Referencia del Estado del Arte
 
-Para contextualizar el problema y conocer metodologías previamente utilizadas en la industria eléctrica, se referencia el siguiente artículo relacionado con la predicción de índices de confiabilidad mediante técnicas de aprendizaje automático:
+- Mossie, M. A., Yetayew, T. T., Bitew, G. T., Yenealem, M. G., Beza, T. M. (2025). *Machine learning algorithms for voltage stability assessment in electrical distribution systems.* Scientific Reports. DOI: https://doi.org/10.1038/s41598-025-15791-2  
 
-- Kumar, A., et al. (2021). *Machine Learning Techniques for Reliability Assessment in Power Distribution Systems*. IEEE.  
-  https://ieeexplore.ieee.org/document/9449448
 
 
 
