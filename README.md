@@ -56,5 +56,21 @@ SAIFI y SAIDI son componentes clave que influyen directamente en el valor final 
 
 - **Formato:** PKL  
 - **Filas:** Cada fila representa un punto de red o equipo  
-- **Columnas:** Variables técnicas, operativas, estructurales, ambientales y la variable objetivo UITI    
+- **Columnas:** Variables técnicas, operativas, estructurales, ambientales y la variable objetivo UITI
+
+## 📎 Enlace al Conjunto de Datos
+
+El conjunto de datos utilizado en este proyecto está disponible en Kaggle:
+
+- **PowerGrid Assets ML Dataset**  
+  https://www.kaggle.com/datasets/cristiancamiloo/powergrid-assets-ml-dataset/data
+
+## 📄 Paper de Referencia del Estado del Arte
+
+Para contextualizar el problema y conocer metodologías previamente utilizadas en la industria eléctrica, se referencia el siguiente artículo relacionado con la predicción de índices de confiabilidad mediante técnicas de aprendizaje automático:
+
+- Kumar, A., et al. (2021). *Machine Learning Techniques for Reliability Assessment in Power Distribution Systems*. IEEE.  
+  https://ieeexplore.ieee.org/document/9449448
+
+
 
