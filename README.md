@@ -9,7 +9,12 @@ Por:
 * Juan Esteban Granada Cardona
 * Daniel Mauricio Mejia Hoyos
 
-  
+## Motivación del Proyecto
+
+La calidad y continuidad del servicio eléctrico es un aspecto fundamental para CHEC, tanto por el impacto directo en los usuarios como por las responsabilidades regulatorias. Las interrupciones, variaciones de tensión y el desgaste de los activos generan costos altos y afectan los indicadores de calidad. Además, muchas zonas de la red no cuentan con medición avanzada, lo que limita la capacidad de analizar su comportamiento real.
+
+Por esta razón, es necesario contar con modelos que permitan estimar la calidad del servicio en puntos donde no hay instrumentación, aprovechando datos históricos, variables ambientales y condiciones operativas. Este proyecto responde a esa necesidad combinando técnicas de aprendizaje profundo con un agente capaz de interpretar la normativa, con el fin de apoyar la toma de decisiones y anticipar posibles fallas.
+
 ## Descripción del Problema
 
 La empresa CHEC (Central Hidroeléctrica de Caldas) es la encargada de la distribución y comercialización de energía eléctrica en el departamento de Caldas, Colombia. La continuidad y calidad del servicio son indicadores críticos para la operación eficiente de la red y la satisfacción del usuario final.
@@ -62,6 +67,32 @@ El análisis se centra en métricas estandarizadas para la evaluación de sistem
 
 ### UITI
 Índice Unificado de Tensión e Interrupciones. Es la variable objetivo de este estudio. Funciona como una métrica integral que pondera tanto la estabilidad de la tensión (calidad de potencia) como la frecuencia y duración de las interrupciones (confiabilidad), permitiendo una evaluación holística del punto de conexión.
+
+## Formulación Básica de SAIFI, SAIDI y UITI
+
+SAIFI indica cuántas interrupciones en promedio experimenta un usuario:
+
+$$
+\text{SAIFI} = \frac{\sum N_i}{N_T}
+$$
+
+donde 𝑁_𝑖 es el número de usuarios afectados por cada interrupción y 𝑁_𝑇 es el total de usuarios.
+
+SAIDI representa la duración promedio de las interrupciones:
+
+$$
+\text{SAIDI} = \frac{\sum N_i T_i}{N_T}
+$$
+
+donde 𝑇_𝑖 es la duración de cada evento.
+
+El UITI combina calidad de tensión y confiabilidad. Aunque su fórmula exacta depende del operador, puede expresarse de forma general como:
+
+$$
+\text{UITI} = \alpha \cdot f(\text{tensión}) + \beta \cdot \text{SAIFI} + \gamma \cdot \text{SAIDI}
+$$
+
+donde las ponderaciones α,β y γ reflejan la importancia relativa de cada componente.
 
 ## Acerca del Conjunto de Datos
 
