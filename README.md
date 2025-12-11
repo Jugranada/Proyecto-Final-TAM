@@ -1,11 +1,15 @@
 
 
 # Predicción y Análisis de Calidad de Energía mediante IA Neuro-Simbólica
-Por :
-*Luis Fernando Castro Buchelly
-*Diego Fernando Erazo Ciceri
-*Juan Esteban Granada Cardona
-*Daniel Mauricio Mejia Hoyos
+
+Por:
+
+* Luis Fernando Castro Buchelly
+* Diego Fernando Erazo Ciceri
+* Juan Esteban Granada Cardona
+* Daniel Mauricio Mejia Hoyos
+
+  
 ## Descripción del Problema
 
 La empresa CHEC (Central Hidroeléctrica de Caldas) es la encargada de la distribución y comercialización de energía eléctrica en el departamento de Caldas, Colombia. La continuidad y calidad del servicio son indicadores críticos para la operación eficiente de la red y la satisfacción del usuario final.
