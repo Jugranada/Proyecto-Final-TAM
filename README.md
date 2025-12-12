@@ -1,6 +1,6 @@
 
 
-# Predicción y Análisis de Calidad de Energía mediante IA Neuro-Simbólica
+# Predicción y Análisis de Calidad de Energía 
 
 Por:
 
